@@ -3,6 +3,6 @@
   <Project Path="MCPForUnity.Editor.csproj" />
   <Project Path="NavMeshComponentsTestsEditmode.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
-  <Project Path="NavMeshComponentsTestsPlaymode.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="NavMeshComponentsTestsPlaymode.csproj" />
 </Solution>

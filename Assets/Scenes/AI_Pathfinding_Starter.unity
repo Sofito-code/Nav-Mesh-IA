@@ -46853,6 +46853,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 237660789679828894, guid: 1d6e7443f29f80543afa1e2654b83665, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 237660789228633499}
+    - targetCorrespondingSourceObject: {fileID: 237660789679828894, guid: 1d6e7443f29f80543afa1e2654b83665, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 237660789228633500}
     - targetCorrespondingSourceObject: {fileID: 237660789463533133, guid: 1d6e7443f29f80543afa1e2654b83665, type: 3}
       insertIndex: -1
       addedObject: {fileID: 237660789228633497}
@@ -46891,6 +46897,47 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &237660789228633498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 237660789679828894, guid: 1d6e7443f29f80543afa1e2654b83665, type: 3}
+  m_PrefabInstance: {fileID: 237660789228633495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &237660789228633499
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237660789228633498}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &237660789228633500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237660789228633498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da442818f931c9644a906fc1ae794b13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  cam: {fileID: 699876804}
+  agent: {fileID: 237660789228633499}
 --- !u!1001 &8181891043932316449
 PrefabInstance:
   m_ObjectHideFlags: 0
