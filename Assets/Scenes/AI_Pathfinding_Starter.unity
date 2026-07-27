@@ -21693,6 +21693,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2471797117469848140, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 834700816}
+    - targetCorrespondingSourceObject: {fileID: 2471797117668760479, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1092159699}
   m_SourcePrefab: {fileID: 100100000, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
 --- !u!1001 &981534394
 PrefabInstance:
@@ -24370,6 +24373,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4926591831143164, guid: dad5ac76e863a834aa3d74b266e53f15, type: 3}
   m_PrefabInstance: {fileID: 1089361645}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1092159696 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2471797117668760479, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
+  m_PrefabInstance: {fileID: 979503210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1092159699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092159696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1001 &1092416462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32395,7 +32432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1516794308
 Transform:
   m_ObjectHideFlags: 0
@@ -39003,6 +39040,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4272111705749620, guid: 72de0beeba2e6bf4a9c3893b470689ae, type: 3}
   m_PrefabInstance: {fileID: 1825122166}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1825492178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2471797117668760479, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
+  m_PrefabInstance: {fileID: 1905035091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1825492181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825492178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1001 &1826393214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41186,6 +41257,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2471797117469848140, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 186623838}
+    - targetCorrespondingSourceObject: {fileID: 2471797117668760479, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1825492181}
   m_SourcePrefab: {fileID: 100100000, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
 --- !u!1001 &1908528715
 PrefabInstance:
@@ -46947,10 +47021,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 1516794308}
     m_Modifications:
     - target: {fileID: 2471797117469848139, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2471797117469848139, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.58
       objectReference: {fileID: 0}
@@ -46997,38 +47067,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2471797117469848140, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8181891043932316451}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
---- !u!1 &8181891043932316450 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2471797117469848140, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
-  m_PrefabInstance: {fileID: 8181891043932316449}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &8181891043932316451
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8181891043932316450}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69005668a432cdd41b953ce0061961f9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8181891043932316455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2471797117469848139, guid: 5df1d18049f22fc4494a2e36a77f4f1e, type: 3}
